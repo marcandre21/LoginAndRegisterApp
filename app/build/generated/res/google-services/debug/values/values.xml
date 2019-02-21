@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">888713261702-614h5vh9589lc5pd0jr185lkr5s1mhbq.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://loginandregisterapp-e99cd.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">888713261702</string>
+    <string name="google_api_key" translatable="false">AIzaSyAGP93l-pXsbg_Bwt4McuFLpl_OBhg4rKs</string>
+    <string name="google_app_id" translatable="false">1:888713261702:android:deaae79cdf056ac3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAGP93l-pXsbg_Bwt4McuFLpl_OBhg4rKs</string>
+    <string name="google_storage_bucket" translatable="false">loginandregisterapp-e99cd.appspot.com</string>
+    <string name="project_id" translatable="false">loginandregisterapp-e99cd</string>
+</resources>
