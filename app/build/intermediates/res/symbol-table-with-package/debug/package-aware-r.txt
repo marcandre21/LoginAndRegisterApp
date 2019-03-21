@@ -707,6 +707,8 @@ id btn_login
 id btn_reset_password
 id btn_signup
 id buttonPanel
+id button_confirm_next
+id button_start_quiz
 id cancel_action
 id chains
 id changePass
@@ -764,6 +766,10 @@ id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id radio_button1
+id radio_button2
+id radio_button3
+id radio_group
 id remove
 id remove_user_button
 id right_icon
@@ -808,6 +814,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
 id textView2
+id text_view_countdown
+id text_view_highscore
+id text_view_question
+id text_view_question_count
+id text_view_score
 id time
 id title
 id titleDividerNoCustom
@@ -857,6 +868,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout activity_login
 layout activity_main
+layout activity_quiz
 layout activity_reset_password
 layout activity_signup
 layout notification_action

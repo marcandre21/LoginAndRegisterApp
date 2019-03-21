@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ea8488b8dcf61f2ab4d0029c6ff54289\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\eb45704423597e67e29d90f754427032\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\3d3e840c879d0430932533c2d4212111\AndroidManifest.xml:17:1-38:12
@@ -34,25 +34,25 @@ MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ponchy\.gradle
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3cc082b18d1df5881300d262ad564030\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\9f10081cf5263fb0a7909490fc1307c4\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a48b113bc2ff78fe874b496e4737fb7d\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\227165832bfba4fb6a34278f0997c082\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\227165832bfba4fb6a34278f0997c082\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\5f6984257d450084cbe552edfc39a198\AndroidManifest.xml:24:5-67
@@ -68,7 +68,7 @@ MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Ponchy\.gradle\ca
 	android:name
 		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:7:5-26:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ea8488b8dcf61f2ab4d0029c6ff54289\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ea8488b8dcf61f2ab4d0029c6ff54289\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ponchy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\eb45704423597e67e29d90f754427032\AndroidManifest.xml:9:5-20
@@ -139,32 +139,36 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ponchy\.gradle\cache
 		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.loginandregisterapp.QuizActivity
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:15:9-59
+	android:name
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:15:19-47
 activity#com.loginandregisterapp.AccountActivity.LoginActivity
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:14:19-87
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:16:19-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.loginandregisterapp.AccountActivity.MainActivity
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:21:9-89
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:23:9-66
 	android:name
-		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:21:19-86
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:23:19-63
 activity#com.loginandregisterapp.AccountActivity.SignupActivity
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:22:9-91
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:24:9-68
 	android:name
-		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:22:19-88
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:24:19-65
 activity#com.loginandregisterapp.AccountActivity.ResetPasswordActivity
-ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:23:9-107
+ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:25:9-75
 	android:name
-		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:23:19-95
+		ADDED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml:25:19-72
 uses-sdk
 INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ponchy\Desktop\LoginAndRegisterApp\LoginAndRegisterApp\app\src\main\AndroidManifest.xml

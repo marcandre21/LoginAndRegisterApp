@@ -2,6 +2,7 @@ package com.loginandregisterapp.AccountActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.loginandregisterapp.QuizActivity;
 import com.loginandregisterapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -27,7 +29,14 @@ public class MainActivity extends AppCompatActivity {
     private EditText oldEmail, password, newPassword;
     private ProgressBar progressBar;
     private FirebaseAuth auth;
+    private static final int REQUEST_CODE_QUIZ = 1;
 
+    public static final String SHARED_PREFS = "sharedPrefs";
+    public static final String KEY_HIGHSCORE = "keyHighscore";
+
+    private TextView textViewHighscore;
+
+    private int highscore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +45,17 @@ public class MainActivity extends AppCompatActivity {
         //Firebase auth instance
         auth = FirebaseAuth.getInstance();
         email = (TextView) findViewById(R.id.useremail);
+
+        textViewHighscore = findViewById(R.id.text_view_highscore);
+        loadHighscore();
+
+        final Button buttonStartQuiz = findViewById(R.id.button_start_quiz);
+        buttonStartQuiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startQuiz();
+            }
+        });
 
         //Get current user
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
@@ -162,11 +182,48 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // Create intent to start quiz
+    private void startQuiz() {
+        Intent intent = new Intent(MainActivity.this, QuizActivity.class);
+        startActivityForResult(intent, REQUEST_CODE_QUIZ);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_CODE_QUIZ) {
+            if (resultCode == RESULT_OK) {
+                int score = data.getIntExtra(QuizActivity.EXTRA_SCORE, 0);
+                if (score > highscore) {
+                    updateHighscore(score);
+                }
+            }
+        }
+    }
+
+    // Result counter
+    private void loadHighscore() {
+        SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
+        highscore = prefs.getInt(KEY_HIGHSCORE, 0);
+        textViewHighscore.setText("Highscore: " + highscore);
+    }
+
+    // Update highscore; Keep score history
+    private void updateHighscore(int highscoreNew) {
+        highscore = highscoreNew;
+        textViewHighscore.setText("Highscore: " + highscore);
+
+        SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putInt(KEY_HIGHSCORE, highscore);
+        editor.apply();
+    }
+
     @SuppressLint("SetTextI18n")
     private void setDataToView(FirebaseUser user) {
 
         email.setText("User Email: " + user.getEmail());
-
 
     }
 
